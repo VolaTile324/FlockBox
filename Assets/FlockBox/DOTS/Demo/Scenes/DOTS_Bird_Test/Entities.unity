@@ -151,20 +151,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 327ff1812ac0af74d975a4bc65c3be66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dimensions_x: 10
-  dimensions_y: 10
-  dimensions_z: 10
+  dimensions_x: 20
+  dimensions_y: 20
+  dimensions_z: 20
   cellSize: 10
   wrapEdges: 0
   useWorldSpace: 0
-  boundaryBuffer: 10
+  boundaryBuffer: 0.5
   sleepChance: 0.5
   maxCellCapacity: 10
   capCellCapacity: 1
-  startingPopulations:
-  - prefab: {fileID: -4947624081692941235, guid: ed599773dba34dd43bad9533bef547ca,
-      type: 3}
-    population: 10
+  startingPopulations: []
   drawBoundary: 1
   drawOccupiedCells: 0
 --- !u!4 &167140730
