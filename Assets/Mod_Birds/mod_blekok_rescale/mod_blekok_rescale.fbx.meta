@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8bf4387dfc984d648b1c71e4929c6598
+guid: d3c78d404772cd24d8ef1799f2068528
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -8,37 +8,37 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.002
-    second: {fileID: 2100000, guid: 2d79f8ca04306fb4d83cf1139c0ed9c1, type: 2}
+    second: {fileID: 2100000, guid: 774b27a49f5db8a44bc0151f2a7a1d95, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material.006
-    second: {fileID: 2100000, guid: 4398d8f59867fd74c8a8fee7d0bec60e, type: 2}
+    second: {fileID: 2100000, guid: 17a0516294f2595468d95cd918ba3b57, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: blekok
-    second: {fileID: 2100000, guid: 1b329d96661bf834793f74d9b4c70965, type: 2}
+    second: {fileID: 2100000, guid: bbd5dc52b03caa149843790b023e8991, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: brown.002
-    second: {fileID: 2100000, guid: bdc4c9b079eea474fbefd20d6a8dce27, type: 2}
+    second: {fileID: 2100000, guid: 7eb38f7ba8faf454d8a73096c22e7902, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: paruh.001
-    second: {fileID: 2100000, guid: b91a187343105db4db1a9324e5f08998, type: 2}
+    second: {fileID: 2100000, guid: de3827c1669f9cf4988fc04231df13eb, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: white.001
-    second: {fileID: 2100000, guid: ec10e3e7e1e72f14bafa8f348298a8e4, type: 2}
+    second: {fileID: 2100000, guid: b7edb47bded05494281e8b1ed5f67cb3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: white.004
-    second: {fileID: 2100000, guid: 9d8e22b138ace1c429c00c7ac43573e6, type: 2}
+    second: {fileID: 2100000, guid: 180f40ceec45cd441a77d30d680e90d9, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -161,7 +161,10 @@ MonoBehaviour:
   sleepChance: 0.5
   maxCellCapacity: 10
   capCellCapacity: 1
-  startingPopulations: []
+  startingPopulations:
+  - prefab: {fileID: 6882301980012696367, guid: 0812cfa4638a10d4c8eacd22675b4da4,
+      type: 3}
+    population: 50
   drawBoundary: 1
   drawOccupiedCells: 0
 --- !u!4 &167140730

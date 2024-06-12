@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: mat_white2
-  m_Shader: {fileID: -6465566751694194690, guid: 6d17805eefe414141a32c54e6b6c96c2,
+  m_Shader: {fileID: -6465566751694194690, guid: 65e5607f93f7a3e4c89001dc72c64c60,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -102,6 +102,7 @@ Material:
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+    - _ComputeMeshIndex: 0
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
