@@ -1,44 +1,14 @@
 fileFormatVersion: 2
 guid: ac4845936c4b7bb468c702e7df5b22fd
 ModelImporter:
-  serializedVersion: 21300
+  serializedVersion: 22200
   internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material.004
-    second: {fileID: 2100000, guid: 527f2842018213c468479164ca2d0213, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: brown.001
-    second: {fileID: 2100000, guid: 0cc393c5c974b0b42b1b8827170ad09e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: brown.002
-    second: {fileID: 2100000, guid: 3a98acac1d3d86d4992d7c273aadfa4f, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: paruh
-    second: {fileID: 2100000, guid: 4d2d649dac5ded44bac0c633b8796d8e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: white
-    second: {fileID: 2100000, guid: 714c0cee58a171546912a2b59cb70277, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: white.001
-    second: {fileID: 2100000, guid: 4163d20c23ebfd34da03fb8334ff5ee3, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: white.002
-    second: {fileID: 2100000, guid: f715a0cd3f3b0e240a1cccef5aab966e, type: 2}
+      name: Material
+    second: {fileID: 2100000, guid: c4d939a6f04cb694eb440e04e36f1d59, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -49,7 +19,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    removeConstantScaleCurves: 1
+    removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -75,6 +45,7 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
+    importPhysicalCameras: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -102,6 +73,7 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -124,7 +96,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: 
+    rootMotionBoneName: MCH-torso.parent
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
@@ -132,8 +104,9 @@ ModelImporter:
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 

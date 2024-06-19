@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.bendz.dots.animation": "https://github.com/Bendzae/unity-dots-animation.git",
     "com.unity.burst": "1.8.15",
     "com.unity.collections": "1.2.4",
     "com.unity.entities": "1.2.3",

@@ -1,5 +1,15 @@
 {
   "dependencies": {
+    "com.bendz.dots.animation": {
+      "version": "https://github.com/Bendzae/unity-dots-animation.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.entities": "1.0.11",
+        "com.unity.entities.graphics": "1.0.11"
+      },
+      "hash": "a5ae1e1998765f872ce5c2e54b7ebddec723e1f7"
+    },
     "com.unity.burst": {
       "version": "1.8.15",
       "depth": 0,
