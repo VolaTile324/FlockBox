@@ -51,7 +51,7 @@ MonoBehaviour:
     radius: 1
   debugDrawShape: 0
   tagSearchableOutsideBounds: 0
-  activeSettings: {fileID: 11400000, guid: b82738b8131974144a7b17edd7f4df57, type: 2}
+  activeSettings: {fileID: 11400000, guid: 8d6b8fc280e95cf42923ae7409ca3a41, type: 2}
 --- !u!1001 &2072526303678476295
 PrefabInstance:
   m_ObjectHideFlags: 0

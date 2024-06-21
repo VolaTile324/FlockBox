@@ -164,13 +164,13 @@ MonoBehaviour:
   startingPopulations:
   - prefab: {fileID: 3723553390417926110, guid: dacd3171b1ff4de42ada0b5f9224eb7d,
       type: 3}
-    population: 30
+    population: 20
   - prefab: {fileID: 3430032049244469781, guid: 4e2773fad1223f44ca52624df20b661a,
       type: 3}
-    population: 30
+    population: 20
   - prefab: {fileID: 4178147774853983165, guid: 732cead9bb2399c4bbc6011f0c2b5004,
       type: 3}
-    population: 30
+    population: 20
   drawBoundary: 1
   drawOccupiedCells: 0
 --- !u!4 &167140730

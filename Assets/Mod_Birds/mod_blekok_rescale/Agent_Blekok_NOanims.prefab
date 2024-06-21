@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1781650590996230734}
   - component: {fileID: 3723553390417926110}
   m_Layer: 0
-  m_Name: Agent_Blekok_R2
+  m_Name: Agent_Blekok_NOanims
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51,7 +51,7 @@ MonoBehaviour:
     radius: 1
   debugDrawShape: 0
   tagSearchableOutsideBounds: 0
-  activeSettings: {fileID: 11400000, guid: 8d6b8fc280e95cf42923ae7409ca3a41, type: 2}
+  activeSettings: {fileID: 11400000, guid: b82738b8131974144a7b17edd7f4df57, type: 2}
 --- !u!1001 &8447067243841194551
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -120,61 +120,19 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: d3c78d404772cd24d8ef1799f2068528,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: a6c223e93459c854b83ea7b8006909f8, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d3c78d404772cd24d8ef1799f2068528,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 391496724795450613}
-    - targetCorrespondingSourceObject: {fileID: 8513859187771203891, guid: d3c78d404772cd24d8ef1799f2068528,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5595482425451533510}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3c78d404772cd24d8ef1799f2068528, type: 3}
---- !u!1 &224422649587198724 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8513859187771203891, guid: d3c78d404772cd24d8ef1799f2068528,
-    type: 3}
-  m_PrefabInstance: {fileID: 8447067243841194551}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &5595482425451533510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 224422649587198724}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec7f0122cb3d4c7181bfe0539ba5b8f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &8264311586865507804 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d3c78d404772cd24d8ef1799f2068528,
     type: 3}
   m_PrefabInstance: {fileID: 8447067243841194551}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &8789736980552562534 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: d3c78d404772cd24d8ef1799f2068528,
-    type: 3}
-  m_PrefabInstance: {fileID: 8447067243841194551}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &391496724795450613
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8789736980552562534}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1bd17f93bcd4119b1a07cbf41bb3cc1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Clips:
-  - clip: {fileID: 7400000, guid: 0dd127330fc191f45bfdf6f3cceec60d, type: 2}
-    defaultSpeed: 1.5
